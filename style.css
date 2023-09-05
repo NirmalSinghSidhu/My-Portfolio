@@ -1,4 +1,5 @@
 /*****COMMON CSS SECTION*****/
+/*****COMMON CSS SECTION*****/
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -6,13 +7,28 @@
 	-outline: 0;
 	font-family: Roboto, sans-serif, arial;
 }
-html, body 
-	{
+html, body {
 	font-size: 14px;
 	font-weight: 400;
 	background: #bbd3e8;
 	color: #1c254d;
 }
+
+/* Adjustments for Mobile Devices */
+@media (max-width: 767px) {
+  html, body {
+    font-size: 12px;
+  }
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .width-33, .width-66 {
+    width: 100%;
+    float: none;
+  }
+}
+
 .container {
 	width: 1100px;
 	margin: 0px auto;
@@ -265,7 +281,7 @@ div[role="progressbar"] {
 /*CONTACT US SECTION*/
 
 
-/* Style the contact section */
+/*CONTACT US SECTION*/
 .contact {
     max-width: 100%;
     margin: 0 auto;
@@ -295,5 +311,4 @@ div[role="progressbar"] {
 	width: 16px;
 	height: 16px;
 }
-
 
